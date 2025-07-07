@@ -16,7 +16,7 @@ function Form() {
         >
           <input 
             {...register('task')} 
-            className="flex-grow h-12 px-4 border-2 border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-purple-500 text-base placeholder-gray-400"
+            className="flex-grow h-12 px-4 border-2 border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-purple-500 text-base placeholder-gray-400 outline-none"
             type="text" 
             placeholder="Add Todos.." 
           />
@@ -32,7 +32,7 @@ function Form() {
       </div>
 
 
-      <div className="  flex flex-col items-center pt-4 px-4">
+      <div className="  flex flex-col items-center pt-4 px-4 ">
       <h2 className="text-2xl font-bold text-purple-600 mb-4">Your Todos</h2>
 
       {fromData && fromData.length > 0 ? (

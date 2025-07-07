@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react'
+import React, { createContext, useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form'
 
  export const Todos = createContext() 
@@ -18,6 +18,7 @@ import { useForm } from 'react-hook-form'
       const updateTodo = fromData.filter((_,index) => index !== id)
       setForm(updateTodo)
    }
+  
     const value = {
         register,handleSubmit,HandleData
         ,fromData,HandleDelete
