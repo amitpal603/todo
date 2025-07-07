@@ -3,13 +3,11 @@ import Todo from "./components/Todo"
 
 
 function App() {
-  
-
   return (
    
-  <div className=" bg-purple-300 h-screen">
+  <div>
     <Form></Form>
-    <Todo/>
+    {/* <Todo/> */}
   </div>
   )
 }
