@@ -5,9 +5,9 @@ import Todo from "./components/Todo"
 function App() {
   return (
    
-  <div>
+  <div className="min-h-screen flex flex-col items-center pt-10 gap-4">
     <Form></Form>
-    {/* <Todo/> */}
+    <Todo></Todo>
   </div>
   )
 }
